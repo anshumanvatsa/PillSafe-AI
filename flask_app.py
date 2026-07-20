@@ -115,6 +115,11 @@ def normalize_and_prepare(df: pd.DataFrame) -> pd.DataFrame:
                 df[col] = "Unknown" if col in CATEGORICAL_COLS else 0
         df = df.reindex(columns=EXPECTED_FEATURES, fill_value=0)
 
+    # Ensure categorical dtypes after reindex (crucial for XGBoost)
+    for col in CATEGORICAL_COLS:
+        if col in df.columns:
+            df[col] = df[col].astype("category")
+
     return df
 
 
