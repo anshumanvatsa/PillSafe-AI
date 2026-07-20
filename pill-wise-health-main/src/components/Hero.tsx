@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Shield, Zap, Users } from "lucide-react";
+import { Shield, Zap, Brain } from "lucide-react";
 import heroImage from "@/assets/hero-medical.jpg";
 
 const Hero = () => {
   const stats = [
-    { icon: Shield, label: "Safety Checks", value: "50,000+" },
-    { icon: Zap, label: "AI Accuracy", value: "99.2%" },
-    { icon: Users, label: "Trusted Users", value: "10,000+" },
+    { icon: Shield, label: "Clinical Features", value: "28" },
+    { icon: Zap, label: "AI Accuracy", value: "94.8%" },
+    { icon: Brain, label: "XGBoost Models", value: "Dual" },
   ];
 
   return (
