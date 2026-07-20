@@ -2,6 +2,7 @@ Flask==2.3.3
 flask-cors
 pandas==2.2.2
 scikit-learn==1.5.0
+numpy<2
 joblib
 xgboost==2.0.3
 gunicorn
