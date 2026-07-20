@@ -9,7 +9,7 @@ const About = () => {
             About the Creator
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            This project was developed by Anshuman Vatsa, an engineer passionate about leveraging artificial intelligence to improve clinical decision-making and patient safety.
+            This project was developed by Anshuman, an engineer passionate about leveraging artificial intelligence to improve clinical decision-making and patient safety.
           </p>
           <div className="flex justify-center space-x-6">
             <a
