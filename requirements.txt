@@ -1,5 +1,7 @@
 Flask==2.3.3
+flask-cors
 pandas
 scikit-learn
 joblib
 xgboost
+gunicorn

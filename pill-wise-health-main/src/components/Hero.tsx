@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-serif text-foreground leading-tight">
                 AI-Powered{" "}
-                <span className="text-primary">Drug Safety</span>{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">Drug Safety</span>{" "}
                 Analysis
               </h1>
               

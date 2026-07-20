@@ -1,22 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "pill-wise-health-main/package.json",
-      "use": "@vercel/vite"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/pill-wise-health-main/dist/$1"
-    }
-  ]
+  "buildCommand": "cd pill-wise-health-main && npm install && npm run build",
+  "outputDirectory": "pill-wise-health-main/dist"
 }
