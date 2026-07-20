@@ -1,7 +1,7 @@
 Flask==2.3.3
 flask-cors
-pandas
-scikit-learn
+pandas==2.2.2
+scikit-learn==1.5.0
 joblib
-xgboost
+xgboost==2.0.3
 gunicorn
