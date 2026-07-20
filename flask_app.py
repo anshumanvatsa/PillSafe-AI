@@ -14,10 +14,11 @@ CORS(app, resources={r"/*": {"origins": "*"}})  # Enable CORS for all routes
 # -----------------------------
 # Model paths
 # -----------------------------
-MODEL_ADVERSE_PATH = "xgb_adverse_reaction_model.pkl"
-MODEL_REACTION_PATH = "xgb_reaction_type_model.pkl"
-LE_ADVERSE_PATH = "le_adverse.pkl"
-LE_REACTION_PATH = "le_reaction.pkl"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_ADVERSE_PATH = os.path.join(BASE_DIR, "xgb_adverse_reaction_model.pkl")
+MODEL_REACTION_PATH = os.path.join(BASE_DIR, "xgb_reaction_type_model.pkl")
+LE_ADVERSE_PATH = os.path.join(BASE_DIR, "le_adverse.pkl")
+LE_REACTION_PATH = os.path.join(BASE_DIR, "le_reaction.pkl")
 
 # Global variables for models
 model1 = None

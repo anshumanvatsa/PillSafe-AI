@@ -42,9 +42,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Company</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
+              <li><a href="https://github.com/anshumanvatsa" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">About Us / GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/anshumanvatsa/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LinkedIn</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Research</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
             </ul>
           </div>

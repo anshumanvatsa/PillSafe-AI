@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Features from "@/components/Features";
 import DrugSafetyPredictor from "@/components/DrugSafetyPredictor";
+import About from "@/components/About";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <HowItWorks />
       <Features />
       <DrugSafetyPredictor />
+      <About />
       <Footer />
     </div>
   );
